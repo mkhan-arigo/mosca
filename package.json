@@ -1,6 +1,6 @@
 {
   "name": "mosca",
-  "version": "2.3.0",
+  "version": "2.3.0-1",
   "description": "MQTT broker as a module",
   "main": "index.js",
   "bin": {
@@ -69,7 +69,7 @@
   },
   "dependencies": {
     "array-from": "^2.1.1",
-    "ascoltatori": "^3.0.0",
+    "ascoltatori": "^4.0.0",
     "brfs": "~1.4.2",
     "clone": "^1.0.2",
     "commander": "~2.9.0",
