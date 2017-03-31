@@ -1,6 +1,6 @@
 {
   "name": "mosca",
-  "version": "2.3.0-1",
+  "version": "2.3.0-2",
   "description": "MQTT broker as a module",
   "main": "index.js",
   "bin": {
@@ -24,10 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcollina/mosca.git"
+    "url": "https://github.com/arigo-software/mosca.git"
   },
   "bugs": {
-    "url": "http://github.com/mcollina/mosca/issues"
+    "url": "http://github.com/arigo-software/mosca/issues"
   },
   "engines": {
     "node": ">= 0.12"
@@ -46,6 +46,10 @@
     "websocket"
   ],
   "author": "Matteo Collina <hello@matteocollina.com>",
+  "contributors": [{
+    "name": "Simon Ruetzler",
+    "email": "sruetzler@arigo-software.de"
+  }],
   "license": "MIT",
   "devDependencies": {
     "browserify": "~13.0.0",
