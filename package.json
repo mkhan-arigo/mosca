@@ -73,7 +73,7 @@
   },
   "dependencies": {
     "array-from": "^2.1.1",
-    "ascoltatori": "github:arigo-software/ascoltatori#v4.3.0-1",
+    "ascoltatori": "github:arigo-software/ascoltatori#v4.3.0-2",
     "brfs": "~1.4.2",
     "clone": "^1.0.2",
     "commander": "~2.9.0",
