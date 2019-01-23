@@ -1,6 +1,6 @@
 {
   "name": "mosca",
-  "version": "2.8.3-6",
+  "version": "2.8.3-7",
   "description": "MQTT broker as a module",
   "main": "index.js",
   "bin": {
@@ -46,10 +46,12 @@
     "websocket"
   ],
   "author": "Matteo Collina <hello@matteocollina.com>",
-  "contributors": [{
-    "name": "Simon Ruetzler",
-    "email": "sruetzler@arigo-software.de"
-  }],
+  "contributors": [
+    {
+      "name": "Simon Ruetzler",
+      "email": "sruetzler@arigo-software.de"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "browserify": "~13.0.0",
@@ -79,9 +81,7 @@
     "commander": "~2.9.0",
     "deepcopy": "^0.6.1",
     "escape-string-regexp": "^1.0.5",
-	"eventemitter2": "^5.0.1",
     "extend": "^3.0.0",
-	"ioredis": "^4.3.0",
     "json-buffer": "~2.0.11",
     "jsonschema": "^1.0.3",
     "level-sublevel": "^6.5.2",
@@ -89,11 +89,9 @@
     "lru-cache": "~4.0.0",
     "memdown": "~1.1.1",
     "minimatch": "~3.0.0",
-	"mongodb": "^3.1.12",
     "moving-average": "0.1.1",
     "mqtt": "^1.6.3",
     "mqtt-connection": "^2.1.1",
-	"msgpack-lite": "^0.1.26",
     "msgpack5": "^3.3.0",
     "nanoid": "^0.2.2",
     "pbkdf2-password": "^1.1.0",
@@ -106,7 +104,9 @@
     "websocket-stream": "~3.1.0"
   },
   "optionalDependencies": {
+    "amqp": "~0.2.4",
+    "ioredis": "^4.3.0",
     "leveldown": "~4.0.1",
-    "amqp": "~0.2.4"
+    "mongodb": "^3.1.12"
   }
 }
